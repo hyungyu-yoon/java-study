@@ -173,7 +173,7 @@
     - random : 랜덤
     - round : 반올림
 - random() 메소드는 0.0 과 1.0 사이의 double 타입 난수를 리턴
-    - start 부터 n 개의 정수 `int num = (int) Math.random() * n ) + start;`
+    - start 부터 n 개의 정수 `int num = (int) (Math.random() * n ) + start;`
 
 ### 12.8 날짜와 시간 클래스
 
